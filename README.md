@@ -1,17 +1,41 @@
 # oibsip-2
 Unemployment Analysis with Python
-# Unemployment Analysis with Python
+# 📉 Unemployment Analysis in India using Python  
 
-## Overview
-This project analyzes unemployment trends using Python. It includes data processing, visualization, and statistical analysis to derive insights from unemployment data.
+## 📌 Project Overview  
+This project analyzes **unemployment trends in India** using **Python and data visualization techniques**. The dataset contains unemployment rates across different states, regions, and time periods, allowing us to gain insights into employment trends and economic patterns.  
 
-## Features
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Visualization of unemployment trends
-- Statistical insights and model implementation
+---
 
-## Requirements
-Ensure you have the following libraries installed:
+## 📂 Dataset Information  
+- **Filename:** `Unemployment in India.csv`  
+- **Format:** CSV  
+- **Size:** 46 KB   
+
+### **🔢 Features & Labels**
+| Column Name        | Description                                  |
+|--------------------|----------------------------------------------|
+| `Region`          | Name of the state/region                     |
+| `Date`            | Date of the unemployment record              |
+| `Frequency`       | Data collection frequency (Daily/Monthly)    |
+| `Estimated Unemployment Rate` | Percentage of unemployed people |
+| `Estimated Employed`  | Number of people employed                |
+| `Estimated Labour Participation Rate` | Percentage of active workforce |
+
+---
+
+## 🚀 Getting Started  
+
+### **🔧 Requirements**
+Ensure you have **Python 3.x** installed, along with the following libraries:  
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `plotly`
+- `Jupyter Notebook` (if running `.ipynb` file)
+
+### **📥 Install Dependencies**  
+Run the following command to install the required dependencies:  
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install numpy pandas matplotlib seaborn plotly notebook
