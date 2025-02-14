@@ -9,7 +9,7 @@ This project analyzes unemployment trends using Python. It includes data process
 - Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
 - Visualization of unemployment trends
-- Statistical insights and model implementation (if applicable)
+- Statistical insights and model implementation
 
 ## Requirements
 Ensure you have the following libraries installed:
